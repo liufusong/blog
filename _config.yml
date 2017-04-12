@@ -1,3 +1,22 @@
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: true
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
@@ -6,7 +25,7 @@
 title: 刘福松--程序猿一枚
 subtitle: 无所求，便无所忧
 description:
-author: John Doe
+author: destiny
 language:
 timezone:
 
@@ -63,10 +82,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-yilia-master
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
-  Docs: http://liufusong.github.io/
+  type: git
+  repo: https://github.com/liufusong/liufusong.github.io.git
+  branch:
+
+
